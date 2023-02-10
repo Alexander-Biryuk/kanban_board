@@ -1,0 +1,28 @@
+.footer {
+  background-color: #0067A3;
+}
+
+.footer_container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1235px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.tasks {
+  display: flex;
+}
+
+.finished_tasks {
+  margin-left: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .author {
+    display: none;
+  }
+}

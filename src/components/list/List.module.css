@@ -1,0 +1,39 @@
+.container {
+  margin: 20px 12px;
+  box-sizing: border-box;
+  flex: 1 1;
+  padding: 12px;
+  background: #EBECF0;
+  border-radius: 10px;
+  color: #000;
+}
+
+.title {
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.task_list {
+  margin: 0;
+  padding: 0;
+}
+
+.task_item {
+  box-sizing: border-box;
+  margin: 15px 0;
+  padding: 8px;
+  text-align: left;
+  list-style: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.link, .link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover {
+  color: #3b3b3b
+}

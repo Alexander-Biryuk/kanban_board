@@ -1,0 +1,12 @@
+.profile {
+  background-color: #0079BF;
+}
+
+.profile div {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1235px;
+  font-size: 28px;
+  color: white;
+  height: calc(100vh - 160px);
+}
