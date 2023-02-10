@@ -1,0 +1,19 @@
+.main {
+  background-color: #0079BF;
+}
+
+.main_container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1235px;
+  display: flex;
+  align-items: flex-start;
+  height: calc(100vh - 110px);
+}
+
+@media screen and (max-width: 768px) {
+  .main_container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
