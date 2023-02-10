@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kanban_build/static/css/main.b4faf409.css",
+    "main.js": "/kanban_build/static/js/main.a30fc334.js",
+    "static/media/user-menu.svg": "/kanban_build/static/media/user-menu.a053f0dfced73bc96f29.svg",
+    "static/media/user-menu2.svg": "/kanban_build/static/media/user-menu2.a2908e5883d03450b0f6.svg",
+    "index.html": "/kanban_build/index.html",
+    "static/media/select-marker.svg": "/kanban_build/static/media/select-marker.157e19ef20c6da73ccf7.svg",
+    "main.b4faf409.css.map": "/kanban_build/static/css/main.b4faf409.css.map",
+    "main.a30fc334.js.map": "/kanban_build/static/js/main.a30fc334.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4faf409.css",
+    "static/js/main.a30fc334.js"
+  ]
+}
