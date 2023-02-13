@@ -30,10 +30,18 @@
   border-radius: 5px;
 }
 
-.link, .link:visited {
+.link,
+.link:visited {
   text-decoration: none;
   color: inherit;
 }
+
 .link:hover {
   color: #3b3b3b
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex: 0 1;
+  }
 }

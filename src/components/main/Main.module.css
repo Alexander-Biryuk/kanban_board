@@ -8,7 +8,8 @@
   max-width: 1235px;
   display: flex;
   align-items: flex-start;
-  height: calc(100vh - 110px);
+  min-height: calc(100vh - 110px);
+  height: fit-content;
 }
 
 @media screen and (max-width: 768px) {

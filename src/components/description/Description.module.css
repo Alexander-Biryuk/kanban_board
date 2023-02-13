@@ -28,6 +28,11 @@
   line-height: 28px;
 }
 
+.little_prompt {
+  font-size: 16px;
+  color: #c2c2c2;
+}
+
 .x_symbol {
   font-size: 24px;
   font-weight: 400;
@@ -50,7 +55,14 @@
   margin-top: 35px;
 }
 
-.save_button {
+.buttons_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 621px;
+}
+
+.save_button, .delete_button {
   margin-top: 12px;
   width: 102px;
   height: 29px;
@@ -64,4 +76,8 @@
   background-color: #0079BF;
   color: #fff;
   justify-content: center;
+}
+
+.delete_button_link {
+  text-decoration: none;
 }

@@ -6,6 +6,7 @@ import styles from './Description.module.css'
 export default function TaskDescription({ task, setTask }) {
   const { taskId } = useParams()
   const [edit, setEdit] = useState(false)
+  
   let title = ''
   let text = ''
   if (task.map(item => item.id).includes(taskId)) {
@@ -43,6 +44,17 @@ export default function TaskDescription({ task, setTask }) {
     setEdit(prev => !prev)
   }
 
+  function handleRemove() {
+    if (window.confirm(`Delete task?`)) {
+    const removeIndex = task.findIndex(item => item.id === taskId)
+    const updatedTask = [...task]
+    updatedTask.splice(removeIndex, 1)
+    setTask(updatedTask)
+    } else {
+      setEdit(prev => !prev)
+    }
+  }
+
   return (
     <div className={styles.description}>
       <div className={styles.description_container}>
@@ -50,7 +62,9 @@ export default function TaskDescription({ task, setTask }) {
           {/* если есть клик по тексту, то можно редактировать */}
           {edit ?
             <input className={styles.name} type="text" value={newTitle} onChange={handleInputChange} /> :
-            <h2 className={styles.name} onClick={handleEditText}>{title}</h2>
+            <h2 className={styles.name} onClick={handleEditText}>
+              {title} <span className={styles.little_prompt}>(click on text to edit)</span>
+            </h2>
           }
 
           <Link to={HOME_PAGE}>
@@ -62,7 +76,12 @@ export default function TaskDescription({ task, setTask }) {
           <div>
             <textarea className={styles.textarea} value={newText} onChange={handleTextChange} >
             </textarea>
-            <button className={styles.save_button} onClick={handleSave}>Save</button>
+            <div className={styles.buttons_container}>
+              <button className={styles.save_button} onClick={handleSave}>Save</button>
+              <Link to={HOME_PAGE} className={styles.delete_button_link}>
+                <button className={styles.delete_button} onClick={handleRemove}>Delete</button>
+              </Link>
+            </div>
           </div> :
           <p className={styles.text} onClick={handleEditText}>
             {text}

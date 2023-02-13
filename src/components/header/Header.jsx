@@ -17,7 +17,7 @@ export default function Header() {
             {/* <div className={styles.avatar}></div>
             <img src="./user-avatar.svg" alt="avatar" /> 
 
-            почему-то при переходе на другую страницу картинки из pablic не отображались,
+            почему-то при переходе на другую страницу картинки из /pablic не отображались,
             пришлось сделать через CSS */}
 
             {showDropdown ?

@@ -5,7 +5,7 @@ import Main from "../main/Main"
 import styles from './Board.module.css'
 import { HOME_PAGE, mockData } from "../../data"
 import Description from "../description/Desctiption"
-import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import PageNotFound from "../no_page_found/PageNotFound"
 import Profile from "../profile/Profile"
 
