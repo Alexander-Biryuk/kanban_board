@@ -1,5 +1,6 @@
 .footer {
-  background-color: #0067A3;
+  /* background-color: #0067A3; */
+  background: linear-gradient(to right, #0067a3, #008ee0);
 }
 
 .footer_container {
@@ -10,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .tasks {

@@ -1,5 +1,6 @@
 .header {
-  background-color: #0067A3;
+  /* background-color: #0067A3; */
+  background: linear-gradient(to right, #0067a3, #008ee0);
   box-sizing: border-box;
 }
 
@@ -18,7 +19,7 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 33px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .link {
@@ -75,7 +76,7 @@
   height: 11px;
   right: 38px;
   top: calc(100% + 5px);
-  background: #FFFFFF;
+  background: #ffffff;
   transform: rotate(45deg);
 }
 
@@ -87,7 +88,7 @@
   text-decoration: underline;
 }
 
-.dropdown>.user_avatar:focus+.dropdown_menu {
+.dropdown > .user_avatar:focus + .dropdown_menu {
   opacity: 1;
 }
 

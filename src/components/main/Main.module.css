@@ -1,5 +1,6 @@
 .main {
-  background-color: #0079BF;
+  /* background-color: #0079BF; */
+  background: linear-gradient(to right, #0079bf, #0083cf);
 }
 
 .main_container {

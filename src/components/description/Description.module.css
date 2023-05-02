@@ -1,5 +1,5 @@
 .description {
-  background-color: #0079BF;
+  background-color: #0079bf;
   margin: 0 auto;
   padding: 22px 26px;
 }
@@ -62,7 +62,8 @@
   max-width: 621px;
 }
 
-.save_button, .delete_button {
+.save_button,
+.delete_button {
   margin-top: 12px;
   width: 102px;
   height: 29px;
@@ -70,10 +71,10 @@
   align-items: center;
   border: none;
   font: inherit;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #0079BF;
+  background-color: #0079bf;
   color: #fff;
   justify-content: center;
 }

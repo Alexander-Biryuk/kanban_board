@@ -4,7 +4,7 @@
   padding: 8px;
   text-align: left;
   list-style: none;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
 }
 
@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   border: none;
   font-size: 18px;
   border-radius: 5px;
@@ -42,9 +42,10 @@
   align-items: center;
   border: none;
   font: inherit;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
-  color: #5E6C84;
+  color: #5e6c84;
+  box-shadow: 0 0 3px #808080;
   cursor: pointer;
 }
 
@@ -59,7 +60,7 @@
 }
 
 .submit_button {
-  background-color: #0079BF;
+  background-color: #0079bf;
   color: #fff;
   border-radius: 5px;
   justify-content: center;
@@ -70,5 +71,5 @@
   appearance: none;
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) 12px;
-  background-image: url('../../../public/select-marker.svg')
+  background-image: url('../../../public/select-marker.svg');
 }
